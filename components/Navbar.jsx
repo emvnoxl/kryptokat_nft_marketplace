@@ -46,7 +46,7 @@ const MenuItems = ({ isMobile, active, setActive, setIsOpen }) => {
 };
 
 const ButtonGroup = ({ setActive, router }) => {
-  const hasConnected = useContext(true);
+  const hasConnected = true;
 
   return hasConnected ? (
     <div className="flexCenter">
